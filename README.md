@@ -17,7 +17,7 @@ np.save('my_matrix.npy', matrix)
 loaded_matrix = np.load('my_matrix.npy')
 ```
 
-# Example Linear Systems $\mathbf{A}\cdot\mathbf{x}=\mathbf{b}
+# Example Linear Systems $\mathbf{A}\cdot\mathbf{x}=\mathbf{b}$
 
 ## Example 1 - Hilbert Matrix
 The Hilbert Matrix is a square matrix with entries being the unit fractions
