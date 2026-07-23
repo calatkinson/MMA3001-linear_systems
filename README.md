@@ -16,3 +16,10 @@ np.save('my_matrix.npy', matrix)
 # Reload it later
 loaded_matrix = np.load('my_matrix.npy')
 ```
+
+# Example Linear Systems
+
+## Example 1 - Hilbert Matrix
+The Hilbert Matrix is a square matrix with entries being the unit fractions
+
+{\displaystyle H_{ij}={\frac {1}{i+j-1}}.}
