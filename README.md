@@ -17,6 +17,15 @@ np.save('my_matrix.npy', matrix)
 loaded_matrix = np.load('my_matrix.npy')
 ```
 
+To load the A matrix and b vector for each case,
+```
+from load_systems import case
+
+A1,b1 = case(1) # for example 1
+A2,b2 = case(2) # for example 2
+```
+
+
 # Example Linear Systems $\mathbf{A}\cdot\mathbf{x}=\mathbf{b}$
 
 ## Example 1 - Hilbert Matrix
