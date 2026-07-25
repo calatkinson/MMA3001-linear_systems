@@ -23,6 +23,7 @@ print("Rank float32:", np.linalg.matrix_rank(A32))
 b = np.array([1., 2., 3., 4., 5.], dtype=np.float64)
 
 # save to file
-np.save('A3_64.npy',A64)
-np.save('A3_64.npy',A32)
+np.save('A3.npy',A64)
+np.save('A4.npy',A32)
 np.save('b3.npy',b)
+np.save('b4.npy',b)
