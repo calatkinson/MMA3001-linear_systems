@@ -93,9 +93,7 @@ $$\mathbf{b} = \begin{bmatrix} 1\\
 ## Example 4 
 Same as Example 3 except all value are converted to single precision.
 
-## Example 5 
-
-Poisson 2D Laplacian (5‑Point Stencil)
+## Example 5 - Poisson 2D Laplacian (5‑Point Stencil)
 
 We consider the 2D Poisson equation:
 
