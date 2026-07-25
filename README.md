@@ -73,11 +73,10 @@ $$\mathbf{b} = \begin{bmatrix} 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \fr
 \frac{1}{5} + \frac{1}{6} + \frac{1}{7} + \frac{1}{8} + \frac{1}{9}
 \end{bmatrix}$$
 
-## Example 2
-Is a square matrix (5x5) matrix
+## Example 3
 
-$$\mathbf{A} = \begin{bmatrix} 1 & 2 & 3 & 4 & 5\\
-2 & 4 & 6 & 8 & 10\\
+$$\mathbf{A} = \begin{bmatrix} 3.271428391e8 & 1.552948112e9 & 9.114228551e7 & 4.771992331e6 & 8.221551992e5\\
+9.814285173e8 & 4.657844336e9 & 2.735268565e8 & 1.431597699e7 & 2.466465597e6\\
 1 & 1 & 1 & 1 & 1\\
 0 & 1 & 2 & 3 & 4\\
 1 & 3 & 5 & 7 & 9
