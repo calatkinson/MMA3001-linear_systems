@@ -90,7 +90,28 @@ $$\mathbf{b} = \begin{bmatrix} 1\\
 4 \\ 
 5 \end{bmatrix}$$
 
-## Example 4 
+## Example 4
+
+[2, -1, 3, 0.5, -1],
+    [-1, 4, 1, 2, 3],
+    [3, 1, -2, 1, 0.25],
+    [1, 2, 1, -4, 2]
+
+$$\mathbf{A} = \begin{bmatrix} 2 & -1 & 3 & 0.5 & -1\\
+-1 & 4 & 1 & 2 & 3\\
+3 & 1 & -2 & 1 & 0.25\\
+1 & 2 & 1 & -4 & 2
+\end{bmatrix}$$
+
+and 
+
+$$\mathbf{b} = \begin{bmatrix} 3.5\\ 
+9 \\ 
+3.25 \\ 
+2 \end{bmatrix}$$
+
+
+## Example 5 
 Same as Example 3 except all value are converted to single precision.
 
 ## Example 5 - Poisson 2D Laplacian (5‑Point Stencil)
