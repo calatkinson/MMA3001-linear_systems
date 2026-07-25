@@ -16,7 +16,7 @@ A64 = hilbert(5, dtype=np.float64)
 b64 = A64 @ x_true
 
 # save to A matrix to file
-np.save('A1.npy', A64)
+np.save('A2.npy', A64)
 
 # save to B matrix to file
-np.save('b1.npy', b64)
+np.save('b2.npy', b64)
