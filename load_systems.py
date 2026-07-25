@@ -13,11 +13,11 @@ def case(num)
       b (np.ndarray): A 1D array of shape (N) containing float values.
   """
   try:
-    A = np.load(f'A{num}.npy')
+    A = np.load(f'cases/A{num}.npy')
   except:
     print(f"File A{num}.npy not found!")
   try:
-    b = np.load(f'b{num}.npy')
+    b = np.load(f'cases/b{num}.npy')
   except:
     print(f"File A{num}.npy not found!")
 
