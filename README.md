@@ -54,3 +54,18 @@ $$\mathbf{b} = \begin{bmatrix} 1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \fr
 \frac{1}{4} + \frac{1}{5} + \frac{1}{6} + \frac{1}{7} + \frac{1}{8}\\
 \frac{1}{5} + \frac{1}{6} + \frac{1}{7} + \frac{1}{8} + \frac{1}{9}
 \end{bmatrix}$$
+
+## Example 2
+Is a square matrix (5x5) matrix
+
+$$\mathbf{A} = \begin{bmatrix} 1 & 2 & 3 & 4 & 5\\
+2 & 4 & 6 & 8 & 10\\
+1 & 1 & 1 & 1 & 1\\
+0 & 1 & 2 & 3 & 4\\
+1 & 3 & 5 & 7 & 9
+\end{bmatrix}$$
+
+and 
+
+$$\mathbf{b} = \begin{bmatrix} 1\\ 2 \\ 3 \\ 4 \\ 5 \end{bmatrix}$$
+
