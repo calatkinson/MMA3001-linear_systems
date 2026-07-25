@@ -16,8 +16,11 @@ row5 = row4 * factor
 
 A64 = np.vstack([A64, row5])
 
-b = np.array([1., 2., 3., 4., 5.], dtype=np.float64)
+# True variables
+x_true = np.ones(5)
+
+b64 = A64 @ x_true
 
 # save to file
 np.save('A3.npy',A64)
-np.save('b3.npy',b)
+np.save('b3.npy',b64)
