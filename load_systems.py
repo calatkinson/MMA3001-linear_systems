@@ -1,7 +1,7 @@
 import numpy as np
 
 # function to load case 1
-def case(num)
+def case(num):
   """
   Function to load A,b matrices and arrays for sample linear systems.
     
