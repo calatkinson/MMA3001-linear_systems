@@ -67,5 +67,9 @@ $$\mathbf{A} = \begin{bmatrix} 1 & 2 & 3 & 4 & 5\\
 
 and 
 
-$$\mathbf{b} = \begin{bmatrix} 1\\ 2 \\ 3 \\ 4 \\ 5 \end{bmatrix}$$
+$$\mathbf{b} = \begin{bmatrix} 1\\ 
+2 \\ 
+3 \\ 
+4 \\ 
+5 \end{bmatrix}$$
 
