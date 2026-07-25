@@ -28,7 +28,25 @@ A2,b2 = case(2) # for example 2
 
 # Example Linear Systems $\mathbf{A}\cdot\mathbf{x}=\mathbf{b}$
 
-## Example 1 - Hilbert Matrix
+## Example 1
+Is a square matrix (5x5) matrix
+
+$$\mathbf{A} = \begin{bmatrix} 4 & 1 & 0 & 0 & 0\\
+1 & 4 & 1 & 0 & 0\\
+0 & 1 & 4 & 1 & 0\\
+0 & 0 & 1 & 4 & 1\\
+0 & 0 & 0 & 1 & 4
+\end{bmatrix}$$
+
+and 
+
+$$\mathbf{b} = \begin{bmatrix} 1\\ 
+2 \\ 
+3 \\ 
+4 \\ 
+5 \end{bmatrix}$$
+
+## Example 2 - Hilbert Matrix
 The Hilbert Matrix is a square matrix with entries being the unit fractions
 
 $$H_{ij}=\frac{1}{i+j-1}$$
