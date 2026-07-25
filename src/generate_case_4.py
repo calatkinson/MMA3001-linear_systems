@@ -32,5 +32,5 @@ b = poisson_rhs_from_solution(N, u, lap_u)
 
 A = poisson_2d(N)  # 2500x2500 sparse SPD matrix
 
-np.save('A5.npy',A)
-np.save('b5.npy',b)
+np.save('A4.npy',A)
+np.save('b4.npy',b)
