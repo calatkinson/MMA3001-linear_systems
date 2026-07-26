@@ -26,7 +26,7 @@ u = lambda x, y: np.sin(np.pi*x)*np.sin(np.pi*y)
 lap_u = lambda x, y: 2*np.pi**2 * np.sin(np.pi*x)*np.sin(np.pi*y)
 
 # stencil 5points
-N = 50
+N = 30
 
 b = poisson_rhs_from_solution(N, u, lap_u)
 
