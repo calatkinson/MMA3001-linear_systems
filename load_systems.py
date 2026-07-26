@@ -19,7 +19,7 @@ def case(num):
   try:
     b = np.load(f'cases/b{num}.npy')
   except:
-    print(f"File A{num}.npy not found!")
+    print(f"File b{num}.npy not found!")
 
   return A,b
   
