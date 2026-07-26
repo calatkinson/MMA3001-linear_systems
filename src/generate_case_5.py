@@ -36,5 +36,5 @@ A = poisson_2d(N)  # 2500x2500 sparse SPD matrix
 # convert to dense matrix
 Adense = A.toarray()
 
-np.save('A4.npy',Adense)
-np.save('b4.npy',b)
+np.save('A5.npy',Adense)
+np.save('b5.npy',b)
